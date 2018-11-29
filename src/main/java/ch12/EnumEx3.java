@@ -1,5 +1,7 @@
 package ch12;
 
+import java.util.Comparator;
+
 enum Transportation {
     BUS(100) {int fare(int distance) {return distance*BASIC_FARE;}},
     TRAIN(150) {int fare(int distance) {return distance*BASIC_FARE;}},
